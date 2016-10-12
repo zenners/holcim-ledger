@@ -2,7 +2,7 @@
   "name": "ledger",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zenners.github.io/ledger",
+  "homepage": "http://zenners.github.io/holcim-ledger",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
