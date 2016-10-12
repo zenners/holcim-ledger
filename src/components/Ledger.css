@@ -1,0 +1,82 @@
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.date-row {
+	background-color: #D6DBE7;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.date-row td {
+	padding-top:8px !important;
+	padding-bottom: 8px !important;
+/*	color: #96ACDA;
+*/}
+
+
+thead tr {
+	background-color:  #31343f;
+}
+
+th {
+    text-align: left;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    padding: 12px;
+    
+}
+
+td {
+	text-align: left;
+	color: #444;
+	
+}
+
+.hoverable:hover {
+	background-color: #eee;
+	
+
+}
+
+.hoverable:hover > td {
+	color: #009CDE;
+}
+
+
+th:first-child {
+  padding-left:3em !important;
+  padding-right:0;
+
+}
+
+th:nth-child(2){
+	 width: 30%;
+}
+
+th:last-child {
+  
+  padding-right:3em !important;
+}
+
+
+td:first-child {
+  padding-left:3em !important;
+  padding-right:0;
+/*  text-transform: uppercase;
+*/
+}
+
+td:last-child {
+  width: 12%;
+  padding-right:3em !important;
+}
+
+.head-end {
+	text-align: right;
+}
+
